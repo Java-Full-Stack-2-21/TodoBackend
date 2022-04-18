@@ -8,6 +8,7 @@ class TodoBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("hi");
 	}
 
 }
