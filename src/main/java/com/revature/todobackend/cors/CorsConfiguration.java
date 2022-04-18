@@ -15,7 +15,7 @@ public class CorsConfiguration {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-                .allowedOrigins("http://localhost:4200")
+                .allowedOrigins(System.getenv("EC2_IP"))
                 .allowCredentials(true)
                 .allowedMethods("GET", "POST", "DELETE");
 			}
