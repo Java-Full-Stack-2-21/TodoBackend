@@ -25,7 +25,7 @@ public class TodoController {
 
     @GetMapping
     public JsonResponse getAll(){
-        return new JsonResponse(true, "retrieving all todos", this.todoService.getAll());
+        return new JsonResponse(true, "retrieving all todos kevtest", this.todoService.getAll());
 
     }
 
